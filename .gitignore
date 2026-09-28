@@ -1,0 +1,14 @@
+# Log Files Clickless writes while running
+*.Log
+logs/
+
+# Windows clutter
+Thumbs.db 
+Desktop.ini 
+
+#Private gitleaks rules (contain personal details)
+gitleaks.personal.toml
+
+
+# Local working notes
+docs/plans/
