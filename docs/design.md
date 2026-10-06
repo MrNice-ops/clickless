@@ -39,7 +39,7 @@ Hunt-and-Peck, the existing tool that does this, fell short in daily use:
 - **Small embedded C# snippets** (via `Add-Type`) — register the global hotkey, notice which app is in front, and check for fullscreen apps.
 - **Pester** — PowerShell's standard testing framework.
 
-Target machine: Windows 11, PowerShell 7.6, two monitors (2560px wide).
+Target machine: Windows 11, PowerShell 7.6, two monitors: a 3440×1440 primary and a 2560×1080 secondary positioned above it. Screen coordinates on the secondary are negative (its top edge is at Y = −1080), so label positioning must handle negative values.
 
 ## How it fits together
 
